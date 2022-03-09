@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  background: #fcfcfc;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  color: dimgray;
+}
+.orange-highlight {
+  color: orange;
+}
+.half-width {
+  width: 40px;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width {
+  width: 40%;
+}
+
+section {
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+/* ----------------------Header------------------- */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.header a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #03fa93;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* ----------------------------Faculty & Institute---------------------- */
+.single-faculty-institute {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+}
+#faculty {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#institute {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+/* ---------------------------Footer-------------------- */
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #d4e9e0;
+  height: auto;
+  width: 100vw;
+  padding-top: 10px;
+  color: rgb(90, 88, 88);
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #030b1a;
+}
+
+.footer-bottom {
+  background: #03fa93;
+  width: 100vw;
+  padding: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}

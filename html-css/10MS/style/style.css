@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Bangla';
+  src: url(Aranya unicode.otf);
+}
+#header {
+  color: red;
+  text-align: center;
+  border: solid yellowgreen;
+  padding: 20px;
+  margin: 20px;
+}
+
+.player-info {
+  border: 3px solid black;
+  width: 500px;
+  height: 300px;
+  overflow: scroll;
+}
+
+#header ~ div {
+  margin-top: 80px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  color: black;
+}
+h3 {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+}
+p {
+  font-family: 'Roboto Slab', serif;
+}
+h1 {
+  font-family: 'Bangla';
+}

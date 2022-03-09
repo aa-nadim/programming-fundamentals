@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form_container">
+        <form name="form">
+          <div class="heading">
+            <h2>Registion Form</h2>
+          </div>
+          <div class="form_wrap fullname">
+            <div class="form_item">
+              <label>First Name</label>
+              <input type="text" />
+            </div>
+
+            <div class="form_item">
+              <label>Last Name</label>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="form_wrap">
+            <div class="form_item">
+              <label>Email Address</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="form_wrap">
+            <div class="form_item">
+              <label>Phone</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="text-area">
+            <p id="form-prompt">How old are you?</p>
+            <input type="radio" id="child" name="age" value="child" />
+            <label for="child">17 years or younger</label><br />
+            <input type="radio" id="adult" name="age" value="adult" />
+            <label for="adult">18 - 64 years</label><br />
+            <input type="radio" id="senior" name="age" value="senior" />
+            <label for="senior">65 years or older</label>
+          </div>
+
+          <div class="form_wrap select_box">
+            <div class="form_item">
+              <label>City</label>
+              <select name="country">
+                <option>London</option>
+                <option>Paris</option>
+                <option>Moscow</option>
+                <option>Tokyo</option>
+              </select>
+            </div>
+
+            <div class="form_item">
+              <label>Country</label>
+              <select name="country">
+                <option>India</option>
+                <option>Canada</option>
+                <option>Germany</option>
+                <option>Australia</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="text-area">
+            <label>Comments</label>
+            <textarea rows="3" cols="50" name="description"> </textarea>
+          </div>
+          <div class="btn">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
